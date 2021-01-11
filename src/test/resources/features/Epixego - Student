@@ -11,7 +11,7 @@ Feature: Student Signup
     Then I navigate to check my mail
     And I search for mail by user epixegomailer
     And I click on the Sign-up link
-    And I test if condition
+
 
 
 

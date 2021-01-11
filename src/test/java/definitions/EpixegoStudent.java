@@ -114,7 +114,7 @@ public class EpixegoStudent {
         System.out.println(a.size());
 
         for(int i=0;i<a.size();i++){
-            System.out.println(a.get(i).getText());
+            //System.out.println(a.get(i).getText());
             if(true == a.get(i).getText().equals("Epixegomailer")==true)
             {
                 a.get(i).click(); // to click on the specific mail
