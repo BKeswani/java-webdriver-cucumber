@@ -103,7 +103,7 @@ public class EpixegoStudent {
 
         //enter password
         driver.findElement(By.xpath("//input[@id='user_password']")).sendKeys("Epixego@20", Keys.ENTER);
-        sleep(6000);
+        sleep(8000);
     }
 
     @And("I search for mail by user epixegomailer")
